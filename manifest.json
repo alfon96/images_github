@@ -1,0 +1,74 @@
+{
+  "components": {
+    "typ": {
+      "title": "TYP",
+      "description": "Finite state machines for TYP workflows",
+      "size": 3,
+      "backend": ["son", "rdx"],
+      "repoUrl": "http://example.com/typ",
+      "preview": "65.svg",
+      "fsms": [
+        {
+          "preview": "3.svg",
+          "file": "c.svg",
+          "id": "typ-1",
+          "title": "User Login FSM",
+          "description": "Handles the user login workflow for TYP.",
+          "tags": ["TTY", "SVG"],
+          "updated": "2025-07-19",
+          "commit": "c1a2b3c4d5e6f7g8h9i0j1k2typ1"
+        },
+        {
+          "preview": "4.svg",
+          "file": "d.svg",
+          "id": "typ-2",
+          "title": "Document Approval FSM",
+          "description": "Manages the document approval process in TYP.",
+          "tags": ["TTY", "SVG"],
+          "updated": "2025-07-19",
+          "commit": "d4e5f6g7h8i9j0k1l2typ2"
+        },
+        {
+          "preview": "5.svg",
+          "file": "e.svg",
+          "id": "typ-3",
+          "title": "Session Timeout FSM",
+          "description": "Controls session timeout and re-authentication for TYP.",
+          "tags": ["TTY", "SVG"],
+          "updated": "2025-07-19",
+          "commit": "e7f8g9h0i1j2k3l4typ3"
+        }
+      ]
+    },
+    "nsx": {
+      "title": "NSX",
+      "description": "Finite state machines for NSX workflows",
+      "repoUrl": "http://example.com/nsx",
+      "size": 2,
+      "backend": ["son", "rdx"],
+      "preview": "66.svg",
+      "fsms": [
+        {
+          "preview": "1.svg",
+          "file": "a.svg",
+          "id": "nsx-1",
+          "title": "Order Processing FSM",
+          "description": "Handles order processing in NSX.",
+          "tags": ["OCN", "SVG"],
+          "updated": "2025-07-19",
+          "commit": "a1b2c3d4e5f6g7h8i9j0nsx1"
+        },
+        {
+          "preview": "2.svg",
+          "file": "b.svg",
+          "id": "nsx-2",
+          "title": "Notification Delivery FSM",
+          "description": "Manages notification delivery in NSX.",
+          "tags": ["OCN", "SVG"],
+          "updated": "2025-07-19",
+          "commit": "b2c3d4e5f6g7h8i9j0k1nsx2"
+        }
+      ]
+    }
+  }
+}
